@@ -1,0 +1,8 @@
+div id="left-menu">
+
+  <app-navigator *ngFor="let page of pages" [page]="page.page" [name]="page.name" [fname]="fname" [email]="email" [checkInDate]="checkInDate" [checkInTime]="checkInTime" [checkOutDate]="checkOutDate" [checkOutTime]="checkOutTime" [adults]="adults" [children]="children" [rooms]="rooms" ></app-navigator>
+
+  </div>
+
+  
+  <router-outlet></router-outlet>

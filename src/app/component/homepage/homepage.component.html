@@ -1,0 +1,33 @@
+<h1>FRESSY HOTEL BOOKING FORM</h1>
+
+
+<form >
+  FName:
+  <input type="text" name="fname" [(ngModel)]="fname">
+  <br><br>
+  E-mail:
+  <input type="text" name="email" [(ngModel)]="email">
+  <br><br>
+  Check In Date:
+  <input type="date" name="checkInDate"  [(ngModel)]="checkInDate">
+  <br><br>
+  Check In Time:
+  <input type="time" name="checkInTime" [(ngModel)]="checkInTime">
+  <br><br>
+  Check Out Date:
+  <input type="date" name="checkOutDate" [(ngModel)]="checkOutDate">
+  <br><br>
+  Check Out Time:
+  <input type="time" name="checkOutTime" [(ngModel)]="checkOutTime">
+  <br><br>
+  Adult(s):
+  <input type="text" name="adults" [(ngModel)]="adults">
+  <br><br>
+  Children:
+  <input type="text" name="children" [(ngModel)]="children"> 
+  <br><br>
+  Room(s):
+  <input type="text" name="rooms" [(ngModel)]="rooms">
+  <br><br>
+  <button type="Submit Booking" (click)="bookingForm()">Submit Booking</button>
+</form> 
